@@ -1,17 +1,11 @@
+Fork for building on debian-stretch. This is the most up to date i found? sourceforge looked unmaintained.
+
+For those uninitiated in autotools, run "autoconf -i", then you'll have your configure script like usual.
+
+******
+
 ec2drv provides Linux support for the Silicon Laboritories EC2 serial debug
 adaptor.
-
-[mjs: this fork adds Mac OS X build support]
-
-newcdb provides a new GDB like interface for ec2drv but also for the s51
-simulator.  This is more flexiable than ec2cdb / sdcdb in that it allows easy
-configuration to the target to use.  Also the readline support works correctly
-for history etc.
-
-ec2cdb is my first attempt at a c debugger interface, basically a quick hack of
-sdcdb replacing the calls to s51 with calls into ec2drv.  
-At the moment I think newcdb is the better option since I have tested it more
-but it is still missing some functionality.
 
 
 ec2tools contains programs that use the core library to perform various actions.
