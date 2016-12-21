@@ -2,6 +2,8 @@ Fork for building on debian-stretch. This is the most up to date i found? source
 
 For those uninitiated in autotools, run "autoconf -i", then you'll have your configure script like usual.
 
+For more info check out INSTALL.
+
 ******
 
 ec2drv provides Linux support for the Silicon Laboritories EC2 serial debug
