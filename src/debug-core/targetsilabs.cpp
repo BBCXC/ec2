@@ -22,6 +22,7 @@
 #include <stdio.h>
 #include "targetsilabs.h"
 #include "ec2drv.h"
+#include <unistd.h>
 
 using namespace std;
 
